@@ -73,7 +73,7 @@ const ContactSection: React.FC = () => {
               <h4 className="text-lg font-semibold text-gray-800">What I Bring</h4>
             </div>
             <p className="text-gray-700 leading-relaxed text-sm">
-              A can-do attitude and a great mix of data engineering and analytics skills! I love diving into complex problems with tools like Python and SQL etc, and I'm passionate about building solutions that are genuinely helpful and make a real impact. I'm excited and ready to contribute my energy to the team! 😊
+              A can-do attitude and a great mix of data engineering and analytics skills! and I'm passionate about building solutions that are genuinely helpful and make a real impact. I'm excited and ready to contribute my energy to the team! 😊
             </p>
           </div>
 
