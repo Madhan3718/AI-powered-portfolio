@@ -72,7 +72,7 @@ const MeSection: React.FC<MeSectionProps> = ({ onChatSubmit }) => {
       {/* Bio */}
       <div className="mt-8 space-y-4">
         <p className="text-gray-700 leading-relaxed">
-          I'm Madankumar Budidapalli, a 23-year-old data application engineer specializing in Data and Machine Learning, currently rocking in Bangalore. Before diving into the tech world, I was a competitive mountain biker, which was a wild ride! 
+          I'm Madankumar Budidapalli, a 23-year-old data application engineer specializing in Data Analysis and Engineering, currently rocking in Bangalore. Before diving into the tech world, I was a competitive mountain trecker, which is a wild ride! 
           Now, I'm currently working at Assetmatle in Bangalore, where I get to work on some super cool data related projects.
         </p>
         <p className="text-gray-700 leading-relaxed">
