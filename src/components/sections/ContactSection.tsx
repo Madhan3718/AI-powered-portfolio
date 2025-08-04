@@ -95,7 +95,7 @@ const ContactSection: React.FC = () => {
         <div className="mb-8">
           <h4 className="text-lg font-semibold text-gray-800 mb-4 text-center">Tech Stack Highlights</h4>
           <div className="flex flex-wrap justify-center gap-2">
-            {['Python', 'Machine Learning', 'Data Analytics', 'React', 'TypeScript', 'AI/ML', 'Computer Vision', 'GenAI'].map((tech, index) => (
+            {['Python', 'PL/SQL', 'Data Analytics', 'PowerBI', 'Excel', 'AI/ML', 'Google cloud'].map((tech, index) => (
               <span
                 key={index}
                 className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium hover:bg-blue-100 transition-colors duration-200"
