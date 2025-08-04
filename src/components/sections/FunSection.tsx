@@ -67,7 +67,7 @@ const FunSection: React.FC<FunSectionProps> = ({ onChatSubmit }) => {
             </div>
             <div className="flex items-center space-x-2 bg-green-100 text-green-800 px-4 py-2 rounded-full">
               <span className="text-sm">🚵‍♂️</span>
-              <span className="text-sm font-medium">Mountain Biking</span>
+              <span className="text-sm font-medium">Farming</span>
             </div>
             <div className="flex items-center space-x-2 bg-purple-100 text-purple-800 px-4 py-2 rounded-full">
               <Camera size={16} />
@@ -75,7 +75,7 @@ const FunSection: React.FC<FunSectionProps> = ({ onChatSubmit }) => {
             </div>
             <div className="flex items-center space-x-2 bg-orange-100 text-orange-800 px-4 py-2 rounded-full">
               <span className="text-sm">🎥</span>
-              <span className="text-sm font-medium">Content Creation</span>
+              <span className="text-sm font-medium">Self Exploration</span>
             </div>
           </div>
         </div>
