@@ -20,7 +20,8 @@ import {
   Target,
   Lightbulb,
   Heart,
-  Eye
+  Eye,
+  Table
 } from 'lucide-react';
 import SectionChatInput from '../SectionChatInput';
 
@@ -48,7 +49,7 @@ const SkillsSection: React.FC<SkillsSectionProps> = ({ onChatSubmit }) => {
       color: 'from-green-500 to-emerald-500',
       skills: [
         { name: 'PowerBI', icon: Monitor },
-        { name: 'Excel', icon: },
+        { name: 'Excel', icon: Table },
         { name: 'Google Cloud Platform', icon: Code },
         { name: 'Azure Data Studio', icon: Code },
         { name: 'GitHub', icon: GitBranch },
