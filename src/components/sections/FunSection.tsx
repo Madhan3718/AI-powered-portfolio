@@ -14,7 +14,7 @@ const FunSection: React.FC<FunSectionProps> = ({ onChatSubmit }) => {
         <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
           <div className="text-2xl">👨‍💻</div>
         </div>
-        <h2 className="text-4xl font-bold text-gray-800 mb-4">Mont Blanc (4810m)</h2>
+        <h2 className="text-4xl font-bold text-gray-800 mb-4">Parvathamalai (4500 ft)</h2>
       </div>
 
       {/* Main Image Card */}
