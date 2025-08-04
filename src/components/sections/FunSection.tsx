@@ -53,7 +53,9 @@ const FunSection: React.FC<FunSectionProps> = ({ onChatSubmit }) => {
               When I'm not trekking up mountains, my main hobby is something totally different—I love helping my father with farming. As a farmer's son, there's something really special and grounding about working the land. It's how I stay connected to my roots and stay active. You can probably tell I'm happiest when I'm outdoors and alone(that's where i analyze myself!)
 
               
- <p className="text-gray-700 leading-relaxed"> What about you? What do you like to do for fun? 😊 </p>
+ <p className="text-gray-700 leading-relaxed">
+   What about you? What do you like to do for fun?
+   😊 </p>
             </p>
           </div>
           
