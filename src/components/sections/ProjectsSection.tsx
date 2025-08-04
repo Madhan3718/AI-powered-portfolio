@@ -55,9 +55,11 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onChatSubmit }) => {
       technologies: ['Python', 'GenAI', 'Machine Learning', 'Automation'],
       githubUrl: 'https://github.com/Madhan3718/Automating-Data-science-workflows-using-GenAI',
       images: [
+        
         'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=600',
         'https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=600',
-        'https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=600'
+        'https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=600',
+        'C:\Users\91630\Pictures\Screenshots\Screenshot (92).png'
       ],
       year: '2024',
       image: '💼',
