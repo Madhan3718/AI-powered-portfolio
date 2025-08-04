@@ -86,7 +86,7 @@ const ContactSection: React.FC = () => {
               <h4 className="text-lg font-semibold text-gray-800">Goal</h4>
             </div>
             <p className="text-gray-700 leading-relaxed text-sm">
-             Join an innovative team where I can contribute to challenging data projects. I am eager to learn from talented people, push my skills further, and help create technology that solves real-world problems. I'm ready to dive in, contribute hard, and leave my mark! 🔥
+             Join an innovative team where I can contribute to challenging data projects. I am eager to learn from talented people, push my skills further, and help create technology that solves real-world problems. I'm ready to dive in and leave my mark! 🔥
             </p>
           </div>
         </div>
