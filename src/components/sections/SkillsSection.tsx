@@ -48,7 +48,7 @@ const SkillsSection: React.FC<SkillsSectionProps> = ({ onChatSubmit }) => {
       color: 'from-green-500 to-emerald-500',
       skills: [
         { name: 'PowerBI', icon: Monitor },
-        { name: 'Excel', icon: Table},
+        { name: 'Excel', icon: },
         { name: 'Google Cloud Platform', icon: Code },
         { name: 'Azure Data Studio', icon: Code },
         { name: 'GitHub', icon: GitBranch },
