@@ -87,7 +87,7 @@ const SkillsSection: React.FC<SkillsSectionProps> = ({ onChatSubmit }) => {
       icon: Brain,
       color: 'from-indigo-500 to-purple-600',
       skills: [
-        { name: 'ETL Pipelines', icon: Slider },
+        { name: 'ETL Pipelines', icon: Code},
         { name: 'Dashboarding', icon: Brain },
         { name: 'DAX', icon: MessageSquare },
         { name: 'Data Cleaning', icon: Database },
