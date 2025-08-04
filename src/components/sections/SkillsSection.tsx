@@ -35,11 +35,11 @@ const SkillsSection: React.FC<SkillsSectionProps> = ({ onChatSubmit }) => {
       icon: Code,
       color: 'from-blue-500 to-cyan-500',
       skills: [
-        { name: 'SQL', icon: Globe },
-        { name: 'Python', icon: Palette },
+        { name: 'SQL', icon: Database },
+        { name: 'Python', icon: Cpu },
         { name: 'Java(Intermediate)', icon: Code },
-        { name: 'HTML', icon: Layers },
-        { name: 'CSS', icon: Layers }
+        { name: 'HTML', icon: Monitor },
+        { name: 'CSS', icon: Palette }
       ]
     },
     {
@@ -47,7 +47,7 @@ const SkillsSection: React.FC<SkillsSectionProps> = ({ onChatSubmit }) => {
       icon: Server,
       color: 'from-green-500 to-emerald-500',
       skills: [
-        { name: 'PowerBI', icon: Monitor },
+        { name: 'PowerBI', icon: BarChart2 },
         { name: 'Excel', icon: Code },
         { name: 'Google Cloud Platform', icon: Code },
         { name: 'Azure Data Studio', icon: Code },
