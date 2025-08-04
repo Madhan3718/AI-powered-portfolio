@@ -90,7 +90,7 @@ const SkillsSection: React.FC<SkillsSectionProps> = ({ onChatSubmit }) => {
         { name: 'ETL Pipelines', icon: Code},
         { name: 'Dashboarding', icon: Brain },
         { name: 'DAX', icon: MessageSquare },
-        { name: 'Data Cleaning', icon: Database },
+        { name: 'Data Cleaning', icon: finally },
         { name: 'Machine Learning', icon: Search },
         { name: 'Python Libraries(Numpy, Pandas, Matplotlib, Scikit-Learn)', icon: Zap },
         { name: 'Orchestration', icon: Zap }
