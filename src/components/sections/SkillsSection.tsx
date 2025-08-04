@@ -63,7 +63,7 @@ const SkillsSection: React.FC<SkillsSectionProps> = ({ onChatSubmit }) => {
       icon: Palette,
       color: 'from-purple-500 to-pink-500',
       skills: [
-        { name: 'SQL Server', icon: Palette },
+        { name: 'SQL Server', icon: Server },
         { name: 'BigQuery', icon: Eye },
         { name: 'CloudSQl', icon: Palette },
         { name: 'MySQL', icon: Palette }
