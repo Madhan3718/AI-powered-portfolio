@@ -92,7 +92,7 @@ const SkillsSection: React.FC<SkillsSectionProps> = ({ onChatSubmit }) => {
         { name: 'DAX', icon: MessageSquare },
         { name: 'Data Cleaning', icon: Palette },
         { name: 'Machine Learning', icon: Search },
-        { name: 'Python Libraries(Numpy, Pandas, Matplotlib, Scikit-Learn)', icon: Zap },
+        { name: 'Python Libraries(Numpy, Pandas, Matplotlib, Scikit-Learn)', icon: Book },
         { name: 'Orchestration', icon: Zap }
       ]
     }
