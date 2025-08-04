@@ -31,48 +31,42 @@ interface SkillsSectionProps {
 const SkillsSection: React.FC<SkillsSectionProps> = ({ onChatSubmit }) => {
   const skillCategories = [
     {
-      title: 'Frontend Development',
+      title: 'Languages',
       icon: Code,
       color: 'from-blue-500 to-cyan-500',
       skills: [
-        { name: 'HTML', icon: Globe },
-        { name: 'CSS', icon: Palette },
-        { name: 'JavaScript/TypeScript', icon: Code },
-        { name: 'Tailwind CSS', icon: Layers },
-        { name: 'Bootstrap', icon: Layers },
-        { name: 'Next.js', icon: Zap },
-        { name: 'React', icon: Cpu },
-        { name: 'Vercel AI SDK', icon: Brain },
-        { name: 'Gsap', icon: Zap }
+        { name: 'SQL', icon: Globe },
+        { name: 'Python', icon: Palette },
+        { name: 'Java(Intermediate)', icon: Code },
+        { name: 'HTML', icon: Layers },
+        { name: 'CSS', icon: Layers }
       ]
     },
     {
-      title: 'Backend & Systems',
+      title: 'Tools/Platforms',
       icon: Server,
       color: 'from-green-500 to-emerald-500',
       skills: [
-        { name: 'Unix', icon: Monitor },
-        { name: 'C', icon: Code },
-        { name: 'C++', icon: Code },
-        { name: 'Python', icon: Code },
-        { name: 'TypeScript', icon: Code },
+        { name: 'PowerBI', icon: Monitor },
+        { name: 'Excel', icon: Code },
+        { name: 'Google Cloud Platform', icon: Code },
+        { name: 'Azure Data Studio', icon: Code },
         { name: 'Git', icon: GitBranch },
         { name: 'GitHub', icon: GitBranch },
-        { name: 'Docker', icon: Cloud },
-        { name: 'GCP', icon: Cloud },
-        { name: 'PostgreSQL', icon: Database }
+        { name: 'Cursor', icon: Cloud },
+        { name: 'Postman', icon: Cloud },
+        { name: 'SQLServer Management Studio', icon: Database }
       ]
     },
     {
-      title: 'Design & Creative Tools',
+      title: 'Databases',
       icon: Palette,
       color: 'from-purple-500 to-pink-500',
       skills: [
-        { name: 'Figma', icon: Palette },
-        { name: 'DaVinci Code', icon: Eye },
-        { name: 'Illustrator', icon: Palette },
-        { name: 'Canva', icon: Palette },
-        { name: 'Keynote', icon: Monitor }
+        { name: 'SQL Server', icon: Palette },
+        { name: 'BigQuery', icon: Eye },
+        { name: 'CloudSQl', icon: Palette },
+        { name: 'MySQL', icon: Palette }
       ]
     },
     {
