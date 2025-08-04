@@ -45,16 +45,14 @@ const FunSection: React.FC<FunSectionProps> = ({ onChatSubmit }) => {
         <div className="p-8">
           <div className="space-y-4">
             <p className="text-gray-700 leading-relaxed">
-              The craziest thing I've ever done? Climbing Mont Blanc, the highest mountain in the Alps! ⛰️ I did it 
-              with a friend, no guide, just us and the wild. The wind was howling at 60 km/h! It was an epic 
-              adventure, and I even made a YouTube video about it. 
+              The craziest thing I've ever done? It has to be climbing Parvathamalai, a 4500 ft mountain! ⛰️ The winds were blasting at 60 km/h, and we were without water for about 5 hours straight. It was an absolutely intense but incredible adventure!
               <a href="#" className="text-blue-600 hover:text-blue-800 underline ml-1">Check it out here!</a>
             </p>
             
             <p className="text-gray-700 leading-relaxed">
-              As for hobbies, I love staying active! I used to be a competitive mountain biker, and I still enjoy 
-              outdoor activities. You can see some of my best sports moments in the photos above! What about 
-              you? What do you like to do for fun? 😊
+              When I'm not trekking up mountains, my main hobby is something totally different—I love helping my father with farming. As a farmer's son, there's something really special and grounding about working the land. It's how I stay connected to my roots and stay active. You can probably tell I'm happiest when I'm outdoors and alone(that's where i analyze myself!)
+
+What about you? What do you like to do for fun? 😊
             </p>
           </div>
           
