@@ -37,7 +37,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onChatSubmit }) => {
       technologies: ['SQL', 'Data Analysis', 'PowerBI','Excel(Pivot tables)','Data StoryTelling'],
       githubUrl: 'https://github.com/Madhan3718/Traffic-Insights-and-Growth-Narrative-for-an-E-Commerce',
       images: [
-        'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=600',
+        'https://private-user-images.githubusercontent.com/126716300/473674092-223ee591-7468-48c0-8ee7-0019e07fa5cb.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTQyOTQ3MDQsIm5iZiI6MTc1NDI5NDQwNCwicGF0aCI6Ii8xMjY3MTYzMDAvNDczNjc0MDkyLTIyM2VlNTkxLTc0NjgtNDhjMC04ZWU3LTAwMTllMDdmYTVjYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwODA0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDgwNFQwODAwMDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02OTc5NTkzNWVhYjNjZmM5OTlkNThkMTdkNjE5ZWE1MmViYTkwNDFkZDYxM2IwNzU3ZmY5MjBjMDRmY2RiNzI4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.p9b4Lhqq5gqKWuYBuEbuiD7DnWgEnotALPIUNN2xPnw',
         'https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=600',
         'https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg?auto=compress&cs=tinysrgb&w=600'
       ],
