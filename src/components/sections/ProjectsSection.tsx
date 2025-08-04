@@ -51,7 +51,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onChatSubmit }) => {
       title: 'GenAI Workflows',
       subtitle: 'Automation processes',
       description: 'Automating data science and analysis workflows using GenAI',
-      fullDescription: 'An innovative project that leverages Generative AI to automate complex data science workflows. This process streamlines the data analysis and dashboard making also entire data science pipeline from data preprocessing to model deployment using GenAI tools like Claude, Julius,Google Vertex AI etc making it more efficient and accessible.',
+      fullDescription: 'An innovative project that leverages Generative AI to automate complex data science workflows. This process streamlines the data analysis and dashboard making also entire data science pipeline from data preprocessing to model deployment using GenAI tools like Claude, Julius, Google Vertex AI etc making it more efficient and accessible.',
       technologies: ['Python', 'GenAI', 'Machine Learning', 'Automation'],
       githubUrl: 'https://github.com/Madhan3718/Automating-Data-science-workflows-using-GenAI',
       images: [
