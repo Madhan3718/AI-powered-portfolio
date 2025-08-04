@@ -1,7 +1,12 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const API_KEY = 'AIzaSyBDAGU1ehqIOpgeUZEQBqKObNNeG0XWGI4';
-const genAI = new GoogleGenerativeAI(API_KEY);
+const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
+
+if (!API_KEY) {
+  console.error('VITE_GEMINI_API_KEY is not set in environment variables');
+}
+
+const genAI = API_KEY ? new GoogleGenerativeAI(API_KEY) : null;
 
 // Portfolio data for context
 const portfolioContext = `
@@ -63,6 +68,10 @@ Remember: You ARE Madankumar Budidapalli. Respond as him directly, not as an AI 
 
 export async function generateResponse(userMessage: string): Promise<string> {
   try {
+    if (!genAI) {
+      return "I'm currently unavailable for chat. Please check back later! In the meantime, feel free to explore my projects and contact me directly through the links above. 😊";
+    }
+    
     const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash-exp' });
     
     const prompt = `${portfolioContext}\n\nUser question: ${userMessage}\n\nPlease provide a helpful and engaging response:`;
@@ -74,6 +83,6 @@ export async function generateResponse(userMessage: string): Promise<string> {
     return text;
   } catch (error) {
     console.error('Error generating response:', error);
-    return "I'm sorry, I'm having trouble connecting right now. Please try again in a moment!";
+    return "I'm currently having trouble connecting to my AI chat service. Feel free to reach out to me directly through email or LinkedIn - I'd love to hear from you! 😊";
   }
 }
