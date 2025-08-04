@@ -55,7 +55,7 @@ const SkillsSection: React.FC<SkillsSectionProps> = ({ onChatSubmit }) => {
         { name: 'GitHub', icon: GitBranch },
         { name: 'Cursor', icon: Cloud },
         { name: 'Postman', icon: Cloud },
-        { name: 'SQLServer Management Studio', icon: Database }
+        { name: 'SQL Server Management Studio', icon: Database }
       ]
     },
     {
@@ -83,16 +83,16 @@ const SkillsSection: React.FC<SkillsSectionProps> = ({ onChatSubmit }) => {
       ]
     },
     {
-      title: 'AI & Fullstack Engineering',
+      title: 'Other',
       icon: Brain,
       color: 'from-indigo-500 to-purple-600',
       skills: [
-        { name: 'LLM Providers (ChatGPT, Whisper, Groq, Mistral & Claude)', icon: Brain },
-        { name: 'AI Agents', icon: Brain },
-        { name: 'Prompt engineering', icon: MessageSquare },
-        { name: 'Vector databases (Weaviate, Pinecone)', icon: Database },
-        { name: 'RAG (Retrieval-Augmented Generation)', icon: Search },
-        { name: 'Tool routing & calling', icon: Zap },
+        { name: 'ETL Pipelines', icon: Brain },
+        { name: 'Dashboarding', icon: Brain },
+        { name: 'DAX', icon: MessageSquare },
+        { name: 'Data Cleaning', icon: Database },
+        { name: 'Machine Learning', icon: Search },
+        { name: 'Python Libraries(Numpy, Pandas, Matplotlib, Scikit-Learn)', icon: Zap },
         { name: 'Hugging Face Transformers', icon: Brain },
         { name: 'Vercel AI SDK', icon: Brain },
         { name: 'Supabase', icon: Database },
