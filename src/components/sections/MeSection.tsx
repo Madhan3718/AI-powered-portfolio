@@ -54,7 +54,7 @@ const MeSection: React.FC<MeSectionProps> = ({ onChatSubmit }) => {
             </div>
             <p className="text-gray-700 leading-relaxed mb-4">
               I'm Madankumar also known as Madan. I'm a data application engineer specializing in data at Bangalore. I'm 
-              working at Assetmantle in Bangalore. I'm passionate about Data, AI and new trending tech.
+              working at Assetmantle in Bangalore. I'm passionate about Data, learning AI and new trending tech.
             </p>
           </div>
           
