@@ -34,7 +34,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onChatSubmit }) => {
       subtitle: 'E-Commerce Analytics',
       description: 'Traffic insights and growth narrative for e-commerce',
       fullDescription: 'A comprehensive analytics project that provides deep insights into e-commerce traffic patterns and growth narratives. This project analyzes user behavior, conversion rates, and provides actionable insights for business growth.',
-      technologies: ['Python', 'Data Analysis', 'Visualization', 'Machine Learning'],
+      technologies: ['SQL', 'Data Analysis', 'PowerBI','Excel(Pivot tables)','Data StoryTelling'],
       githubUrl: 'https://github.com/Madhan3718/Traffic-Insights-and-Growth-Narrative-for-an-E-Commerce',
       images: [
         'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -44,14 +44,14 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onChatSubmit }) => {
       year: '2024',
       image: '📊',
       color: 'from-purple-500 to-blue-600',
-      tags: ['Python', 'Analytics', 'ML']
+      tags: ['SQL', 'Analytics', 'PowerBI']
     },
     {
       id: 2,
       title: 'GenAI Workflows',
-      subtitle: 'Automation Tool',
-      description: 'Automating data science workflows using GenAI',
-      fullDescription: 'An innovative project that leverages Generative AI to automate complex data science workflows. This tool streamlines the entire data science pipeline from data preprocessing to model deployment, making it more efficient and accessible.',
+      subtitle: 'Automation processes',
+      description: 'Automating data science and analysis workflows using GenAI',
+      fullDescription: 'An innovative project that leverages Generative AI to automate complex data science workflows. This process streamlines the data analysis and dashboard making also entire data science pipeline from data preprocessing to model deployment using GenAI tools like Claude, Julius,Google Vertex AI etc making it more efficient and accessible.',
       technologies: ['Python', 'GenAI', 'Machine Learning', 'Automation'],
       githubUrl: 'https://github.com/Madhan3718/Automating-Data-science-workflows-using-GenAI',
       images: [
@@ -62,7 +62,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onChatSubmit }) => {
       year: '2024',
       image: '🤖',
       color: 'from-orange-400 to-pink-500',
-      tags: ['GenAI', 'Python', 'Automation']
+      tags: ['GenAI', 'NoCode', 'Automation']
     },
     {
       id: 3,
@@ -84,11 +84,11 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onChatSubmit }) => {
     },
     {
       id: 4,
-      title: 'Helmet Detection',
-      subtitle: 'Safety Project',
-      description: 'AI-powered helmet detection system',
-      fullDescription: 'An intelligent computer vision system that detects helmet usage for safety compliance. Uses advanced machine learning algorithms to identify and track helmet usage in real-time, helping improve workplace safety standards.',
-      technologies: ['Python', 'Computer Vision', 'Machine Learning', 'OpenCV'],
+      title: 'Helmet',
+      subtitle: 'Development Project',
+      description: 'Functional frontend prototype for business',
+      fullDescription: 'developed a front-end prototype deployed as an Azure Static Web App.The key technical feature was integrating a responsive chatbot built with Azure Bot Services to handle automated customer Q&A. The entire stack, from the web app hosting to the AI service, was built on the Azure Cloud Platform',
+      technologies: ['HTML', 'CSS', 'Azure ChatBot', 'Azure Static WebApps'],
       githubUrl: 'https://github.com/Madhan3718/Helmet',
       images: [
         'https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -98,7 +98,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onChatSubmit }) => {
       year: '2024',
       image: '🛡️',
       color: 'from-green-500 to-teal-600',
-      tags: ['Computer Vision', 'Safety', 'AI']
+      tags: ['Frontend', 'Prototype', 'Azure']
     }
   ];
 
