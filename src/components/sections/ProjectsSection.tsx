@@ -166,7 +166,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onChatSubmit }) => {
       {/* Project Description */}
       <div className="bg-white/80 backdrop-blur-md rounded-3xl p-8 shadow-xl border border-white/20">
         <p className="text-gray-700 mb-6 leading-relaxed">
-          You can check out all my projects above! Right now, I'm working on some exciting AI solutions and tools that enhance user experience. If you want to know more about a specific project or what I'm currently diving into, just let me know! What kind of projects are you curious about? 😄
+          You can check out all my projects above! Right now, I'm working on some exciting Data projects at workspace and tools that resolves real world problems. If you want to know more about a specific project or what I'm currently diving into, just let me know! What kind of projects are you curious about? 😄
         </p>
       </div>
 
