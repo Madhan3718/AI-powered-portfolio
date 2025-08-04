@@ -31,7 +31,7 @@ const FunSection: React.FC<FunSectionProps> = ({ onChatSubmit }) => {
             
             {/* Caption overlay */}
             <div className="absolute bottom-4 left-4 bg-black/50 backdrop-blur-md text-white px-4 py-2 rounded-xl">
-              <span className="text-sm font-medium">Adventure time - Mont Blanc expedition!</span>
+              <span className="text-sm font-medium">Adventure time - Parvathamalai expedition!</span>
             </div>
             
             {/* Play button for video */}
