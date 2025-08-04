@@ -1,144 +1,121 @@
 import React from 'react';
-import { Calendar, MapPin, Code, Briefcase, Target, Mail, ExternalLink, Linkedin } from 'lucide-react';
+import { Mail, Linkedin, Github, Target, Briefcase, ExternalLink } from 'lucide-react';
 
 const ContactSection: React.FC = () => {
-  const techStack = [
-    'Python', 'Next.js', 'TypeScript', 'Tailwind CSS',
-    'Weaviate', 'Pinecone', 'Vector DBs',
-    'Hugging Face Transformers', 'Tool routing', 'calling', 'RAG',
-    'Hackathons', 'AI agent workflows'
-  ];
-
   return (
     <div className="w-full max-w-4xl mx-auto p-6 space-y-8">
       {/* Header */}
       <div className="text-center mb-8">
         <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
-          <div className="text-2xl">👨‍💻</div>
+          <div className="text-2xl">📧</div>
         </div>
+        <h2 className="text-4xl font-bold text-gray-800 mb-4">Let's Connect!</h2>
       </div>
 
       {/* Main Contact Card */}
-      <div className="bg-gray-100 rounded-3xl p-8 shadow-xl">
+      <div className="bg-white/90 backdrop-blur-md rounded-3xl p-8 shadow-xl border border-white/20">
         {/* Profile Header */}
-        <div className="flex items-center space-x-4 mb-8">
-          <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
-            <div className="text-2xl">👨‍💻</div>
+        <div className="text-center mb-8">
+          <div className="w-20 h-20 mx-auto mb-4 rounded-full overflow-hidden shadow-lg">
+            <img 
+              src="https://www.toukoum.fr/_next/image?url=%2Flanding-memojis.png&w=2048&q=75" 
+              alt="Madankumar"
+              className="w-full h-full object-cover"
+            />
           </div>
-          <div className="flex-1">
-            <h2 className="text-2xl font-bold text-gray-800">Madankumar </h2>
-            <p className="text-gray-600">Internship Application</p>
-          </div>
-          <div className="flex items-center space-x-2 bg-green-100 text-green-800 px-3 py-1 rounded-full">
-            <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-            <span className="text-sm font-medium">Live</span>
+          <h3 className="text-2xl font-bold text-gray-800 mb-2">Madankumar Budidapalli</h3>
+          <p className="text-gray-600">Data Application Engineer</p>
+          <div className="flex items-center justify-center space-x-2 mt-2">
+            <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+            <span className="text-sm text-green-600 font-medium">Available for opportunities</span>
           </div>
         </div>
 
-        {/* Info Grid */}
+        {/* Contact Links */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+          <a
+            href="mailto:madhankumarreddy3718@gmail.com"
+            className="flex items-center justify-center space-x-3 bg-gradient-to-r from-red-500 to-pink-500 text-white px-6 py-4 rounded-xl hover:shadow-lg transition-all duration-200 hover:scale-105"
+          >
+            <Mail size={20} />
+            <span className="font-medium">Email</span>
+          </a>
+          
+          <a
+            href="https://www.linkedin.com/in/madankumarb37/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center space-x-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-4 rounded-xl hover:shadow-lg transition-all duration-200 hover:scale-105"
+          >
+            <Linkedin size={20} />
+            <span className="font-medium">LinkedIn</span>
+          </a>
+          
+          <a
+            href="https://github.com/Madhan3718"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center space-x-3 bg-gradient-to-r from-gray-800 to-gray-900 text-white px-6 py-4 rounded-xl hover:shadow-lg transition-all duration-200 hover:scale-105"
+          >
+            <Github size={20} />
+            <span className="font-medium">GitHub</span>
+          </a>
+        </div>
+
+        {/* What I Bring & Goal */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-          {/* Duration */}
-          <div className="space-y-2">
-            <div className="flex items-center space-x-2 text-blue-600">
-              <Calendar size={16} />
-              <span className="font-semibold">Duration</span>
+          {/* What I Bring */}
+          <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-6">
+            <div className="flex items-center space-x-2 mb-4">
+              <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center">
+                <Briefcase size={16} className="text-white" />
+              </div>
+              <h4 className="text-lg font-semibold text-gray-800">What I Bring</h4>
             </div>
-            <p className="text-gray-700">6 months – starting September 2025 (fall 2025)</p>
+            <p className="text-gray-700 leading-relaxed text-sm">
+              Real-world experience in data engineering and AI development. Strong background in Python, 
+              machine learning, and data analytics. I ship fast, solve complex problems, and love building 
+              useful tools that make a real impact.
+            </p>
           </div>
 
-          {/* Location */}
-          <div className="space-y-2">
-            <div className="flex items-center space-x-2 text-green-600">
-              <MapPin size={16} />
-              <span className="font-semibold">Location</span>
+          {/* Goal */}
+          <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-6">
+            <div className="flex items-center space-x-2 mb-4">
+              <div className="w-8 h-8 bg-gradient-to-r from-orange-500 to-red-500 rounded-full flex items-center justify-center">
+                <Target size={16} className="text-white" />
+              </div>
+              <h4 className="text-lg font-semibold text-gray-800">Goal</h4>
             </div>
-            <p className="text-gray-700">Preferably San Francisco or remote</p>
+            <p className="text-gray-700 leading-relaxed text-sm">
+              Join innovative teams building AI-powered solutions that matter. I want to contribute to 
+              cutting-edge projects, learn from the best, and help create technology that transforms 
+              how people work and live. Ready to make an impact! 🚀
+            </p>
           </div>
         </div>
 
-        {/* Tech Stack */}
+        {/* Tech Stack Highlights */}
         <div className="mb-8">
-          <div className="flex items-center space-x-2 text-purple-600 mb-4">
-            <Code size={16} />
-            <span className="font-semibold">Tech stack</span>
+          <h4 className="text-lg font-semibold text-gray-800 mb-4 text-center">Tech Stack Highlights</h4>
+          <div className="flex flex-wrap justify-center gap-2">
+            {['Python', 'Machine Learning', 'Data Analytics', 'React', 'TypeScript', 'AI/ML', 'Computer Vision', 'GenAI'].map((tech, index) => (
+              <span
+                key={index}
+                className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium hover:bg-blue-100 transition-colors duration-200"
+              >
+                {tech}
+              </span>
+            ))}
           </div>
-          <div className="grid grid-cols-2 gap-4 text-sm text-gray-700">
-            <ul className="space-y-1">
-              {techStack.slice(0, Math.ceil(techStack.length / 2)).map((tech, index) => (
-                <li key={index} className="flex items-center space-x-2">
-                  <span className="w-1 h-1 bg-gray-400 rounded-full"></span>
-                  <span>{tech}</span>
-                </li>
-              ))}
-            </ul>
-            <ul className="space-y-1">
-              {techStack.slice(Math.ceil(techStack.length / 2)).map((tech, index) => (
-                <li key={index} className="flex items-center space-x-2">
-                  <span className="w-1 h-1 bg-gray-400 rounded-full"></span>
-                  <span>{tech}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <button className="mt-3 text-blue-600 hover:text-blue-800 text-sm font-medium flex items-center space-x-1">
-            <span>See more</span>
-            <ExternalLink size={12} />
-          </button>
         </div>
 
-        {/* What I Bring */}
-        <div className="mb-8">
-          <div className="flex items-center space-x-2 text-orange-600 mb-4">
-            <Briefcase size={16} />
-            <span className="font-semibold">What I bring</span>
-          </div>
+        {/* Bottom Message */}
+        <div className="text-center bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-6">
           <p className="text-gray-700 leading-relaxed">
-            Real-world AI dev experience from LightOn (MCP, secure GPTs, RAG pipelines), 
-            3x hackathon wins (ETH Oxford, Paris Blockchain Week, Colosseum Breakout on Solana). 
-            I ship fast, and love building useful things that actually work.
+            You can reach me through the contact info above! Feel free to hit me up anytime, I'm always happy to chat! 😉 What's on your mind?
           </p>
         </div>
-
-        {/* Goal */}
-        <div className="mb-8">
-          <div className="flex items-center space-x-2 text-red-600 mb-4">
-            <Target size={16} />
-            <span className="font-semibold">Goal</span>
-          </div>
-          <p className="text-gray-700 leading-relaxed">
-            Join a bold, innovative team building AI-powered tools that matter. I want to improve fast, 
-            contribute hard, and leave a mark. I'm fast, flexible, and HUNGRYYYYY 🔥
-          </p>
-        </div>
-
-        {/* Contact Button */}
-        <div className="text-center">
-          <div className="flex justify-center space-x-4">
-            <a
-              href="mailto:your.email@example.com"
-              className="bg-black text-white px-8 py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors duration-200 flex items-center space-x-2"
-            >
-              <Mail size={16} />
-              <span>Contact me</span>
-            </a>
-            <a
-              href="https://linkedin.com/in/your-profile"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors duration-200 flex items-center space-x-2"
-            >
-              <Linkedin size={16} />
-              <span>LinkedIn</span>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      {/* Bottom Message */}
-      <div className="text-center">
-        <p className="text-gray-700">
-          You can reach me through the contact info above! Feel free to hit me up anytime, I'm always happy to chat! 😉 What's on your mind?
-        </p>
       </div>
     </div>
   );

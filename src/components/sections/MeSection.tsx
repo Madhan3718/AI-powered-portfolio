@@ -35,8 +35,8 @@ const MeSection: React.FC<MeSectionProps> = ({ onChatSubmit }) => {
       {/* Main Content */}
       <div className="flex flex-col lg:flex-row gap-8 items-start">
         {/* Profile Image */}
-        <div className="flex-shrink-0 lg:w-80">
-          <div className="w-full h-96 bg-gradient-to-br from-blue-100 to-purple-100 rounded-3xl overflow-hidden">
+        <div className="flex-shrink-0 lg:w-64">
+          <div className="w-full h-80 bg-gradient-to-br from-blue-100 to-purple-100 rounded-3xl overflow-hidden">
             <img 
               src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400" 
               alt="Profile"

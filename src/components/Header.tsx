@@ -7,7 +7,7 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ onContactClick }) => {
   const handleGithubClick = () => {
-    window.open('https://github.com/toukoum', '_blank');
+    window.open('https://github.com/Madhan3718', '_blank');
   };
 
   return (
