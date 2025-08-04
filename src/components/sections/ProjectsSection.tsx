@@ -60,7 +60,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onChatSubmit }) => {
         'https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=600'
       ],
       year: '2024',
-      image: '🤖',
+      image: '💼',
       color: 'from-orange-400 to-pink-500',
       tags: ['GenAI', 'NoCode', 'Automation']
     },
@@ -78,7 +78,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onChatSubmit }) => {
         'https://images.pexels.com/photos/6802049/pexels-photo-6802049.jpeg?auto=compress&cs=tinysrgb&w=600'
       ],
       year: '2024',
-      image: '💼',
+      image: '🤖',
       color: 'from-red-500 to-purple-600',
       tags: ['React', 'AI', 'Portfolio']
     },
