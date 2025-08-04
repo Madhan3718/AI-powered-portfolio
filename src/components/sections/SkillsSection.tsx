@@ -51,7 +51,6 @@ const SkillsSection: React.FC<SkillsSectionProps> = ({ onChatSubmit }) => {
         { name: 'Excel', icon: Code },
         { name: 'Google Cloud Platform', icon: Code },
         { name: 'Azure Data Studio', icon: Code },
-
         { name: 'GitHub', icon: GitBranch },
         { name: 'Cursor', icon: Cloud },
         { name: 'Postman', icon: Cloud },
@@ -93,11 +92,7 @@ const SkillsSection: React.FC<SkillsSectionProps> = ({ onChatSubmit }) => {
         { name: 'Data Cleaning', icon: Database },
         { name: 'Machine Learning', icon: Search },
         { name: 'Python Libraries(Numpy, Pandas, Matplotlib, Scikit-Learn)', icon: Zap },
-        { name: 'Hugging Face Transformers', icon: Brain },
-        { name: 'Vercel AI SDK', icon: Brain },
-        { name: 'Supabase', icon: Database },
-        { name: 'Prisma', icon: Database },
-        { name: 'Next.js', icon: Zap }
+        { name: 'Orchestration', icon: Zap }
       ]
     }
   ];
