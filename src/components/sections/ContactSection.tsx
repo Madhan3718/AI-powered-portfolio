@@ -73,9 +73,7 @@ const ContactSection: React.FC = () => {
               <h4 className="text-lg font-semibold text-gray-800">What I Bring</h4>
             </div>
             <p className="text-gray-700 leading-relaxed text-sm">
-              Real-world experience in data engineering and AI development. Strong background in Python, 
-              machine learning, and data analytics. I ship fast, solve complex problems, and love building 
-              useful tools that make a real impact.
+              A can-do attitude and a great mix of data engineering and analytics skills! I love diving into complex problems with tools like Python and SQL etc, and I'm passionate about building solutions that are genuinely helpful and make a real impact. I'm excited and ready to contribute my energy to the team! 😊
             </p>
           </div>
 
@@ -88,9 +86,7 @@ const ContactSection: React.FC = () => {
               <h4 className="text-lg font-semibold text-gray-800">Goal</h4>
             </div>
             <p className="text-gray-700 leading-relaxed text-sm">
-              Join innovative teams building AI-powered solutions that matter. I want to contribute to 
-              cutting-edge projects, learn from the best, and help create technology that transforms 
-              how people work and live. Ready to make an impact! 🚀
+             Join an innovative team where I can contribute to challenging data projects. I am eager to learn from talented people, push my skills further, and help create technology that solves real-world problems. I'm ready to dive in, contribute hard, and leave my mark! 🔥
             </p>
           </div>
         </div>
