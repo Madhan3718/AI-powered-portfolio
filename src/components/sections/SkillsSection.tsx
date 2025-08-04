@@ -50,7 +50,7 @@ const SkillsSection: React.FC<SkillsSectionProps> = ({ onChatSubmit }) => {
       skills: [
         { name: 'PowerBI', icon: Monitor },
         { name: 'Excel', icon: Table },
-        { name: 'Google Cloud Platform', icon: Code },
+        { name: 'Google Cloud Platform', icon: Cloud },
         { name: 'Azure Data Studio', icon: Code },
         { name: 'GitHub', icon: GitBranch },
         { name: 'Cursor', icon: Cloud },
