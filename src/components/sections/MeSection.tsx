@@ -15,7 +15,7 @@ const MeSection: React.FC<MeSectionProps> = ({ onChatSubmit }) => {
         <div className="w-16 h-16 mx-auto mb-6 rounded-full overflow-hidden">
           <img 
             src="https://www.toukoum.fr/_next/image?url=%2Flanding-memojis.png&w=2048&q=75" 
-            alt="Raphael Giraud"
+            alt="Mad"
             className="w-full h-full object-cover"
           />
         </div>
