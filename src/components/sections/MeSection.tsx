@@ -53,7 +53,7 @@ const MeSection: React.FC<MeSectionProps> = ({ onChatSubmit }) => {
               <span className="text-lg font-medium text-gray-700">Hey</span>
             </div>
             <p className="text-gray-700 leading-relaxed mb-4">
-              Hi, I'm Madankumar (you can call me Madan)! I'm a 23-year-old Data Application Engineer based in Bangalore, where I get to combine my passions for data, AI, and technology in my role at Assetmantle. I'm passionate about Data, learning AI and new trending tech.
+              Hi, I'm Madankumar (you can call me Madan)! I'm a 23-year-old Data Application Engineer based in Bangalore, where I get to combine my passions for data, AI, and technology in my role at Assetmantle. 
             </p>
           </div>
           
