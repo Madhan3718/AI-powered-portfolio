@@ -91,9 +91,21 @@ function App() {
 
       setChatMessages(prev => [...prev, aiMessage]);
     } catch (error) {
+      let errorMessage = "I'm sorry, I encountered an error. Please try again!";
+      
+      if (error instanceof Error) {
+        if (error.message.includes('overloaded') || error.message.includes('503')) {
+          errorMessage = "The AI model is currently overloaded. Please try again in a moment!";
+        } else if (error.message.includes('quota') || error.message.includes('429')) {
+          errorMessage = "API quota exceeded. Please try again later.";
+        } else if (error.message.includes('network') || error.message.includes('fetch')) {
+          errorMessage = "Network connection issue. Please check your connection and try again.";
+        }
+      }
+      
       const errorMessage: Message = {
         id: (Date.now() + 1).toString(),
-        text: "I'm sorry, I encountered an error. Please try again!",
+        text: errorMessage,
         isUser: false,
         timestamp: new Date()
       };
@@ -127,9 +139,21 @@ function App() {
 
       setChatMessages(prev => [...prev, aiMessage]);
     } catch (error) {
+      let errorMessage = "I'm sorry, I encountered an error. Please try again!";
+      
+      if (error instanceof Error) {
+        if (error.message.includes('overloaded') || error.message.includes('503')) {
+          errorMessage = "The AI model is currently overloaded. Please try again in a moment!";
+        } else if (error.message.includes('quota') || error.message.includes('429')) {
+          errorMessage = "API quota exceeded. Please try again later.";
+        } else if (error.message.includes('network') || error.message.includes('fetch')) {
+          errorMessage = "Network connection issue. Please check your connection and try again.";
+        }
+      }
+      
       const errorMessage: Message = {
         id: (Date.now() + 1).toString(),
-        text: "I'm sorry, I encountered an error. Please try again!",
+        text: errorMessage,
         isUser: false,
         timestamp: new Date()
       };
@@ -168,9 +192,21 @@ function App() {
 
       setMessages(prev => [...prev, aiMessage]);
     } catch (error) {
+      let errorMessage = "I'm sorry, I encountered an error. Please try again!";
+      
+      if (error instanceof Error) {
+        if (error.message.includes('overloaded') || error.message.includes('503')) {
+          errorMessage = "The AI model is currently overloaded. Please try again in a moment!";
+        } else if (error.message.includes('quota') || error.message.includes('429')) {
+          errorMessage = "API quota exceeded. Please try again later.";
+        } else if (error.message.includes('network') || error.message.includes('fetch')) {
+          errorMessage = "Network connection issue. Please check your connection and try again.";
+        }
+      }
+      
       const errorMessage: Message = {
         id: (Date.now() + 1).toString(),
-        text: "I'm sorry, I encountered an error. Please try again!",
+        text: errorMessage,
         isUser: false,
         timestamp: new Date()
       };
