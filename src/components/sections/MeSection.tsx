@@ -72,8 +72,7 @@ const MeSection: React.FC<MeSectionProps> = ({ onChatSubmit }) => {
       <div className="mt-8 space-y-4">
         <p className="text-gray-700 leading-relaxed">
 
-          I am Madankumar Budidapalli, a Data Application Engineer based in Bangalore, specializing in data analysis and engineering. A Computer Science and Engineering graduate from SVEC, Tirupati, I currently apply my skills to impactful data projects at Assetmantle. Before diving into the tech world, I was an avid mountain trekker, which taught me a lot about endurance and tackling challenges head-on. Now, I channel that same energy into my work, diving deep into data to find solutions and build useful tools. I'm always excited to learn about the latest in AI and contribute to projects that are both powerful and innovative.
-
+          I am Madankumar Budidapalli, a Data Application Engineer based in Bangalore, specializing in data analysis and engineering. A Computer Science and Engineering graduate from SVEC, Tirupati, I currently apply my skills to impactful data projects at Assetmantle. Before diving into the tech world, I was an avid mountain trekker, which taught me a lot about endurance and tackling challenges head-on. Now, I channel that same energy into my work, diving deep into data to find solutions and build useful tools. 
 
         </p>
         <p className="text-gray-700 leading-relaxed">
