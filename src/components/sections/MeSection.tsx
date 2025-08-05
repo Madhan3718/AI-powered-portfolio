@@ -53,8 +53,7 @@ const MeSection: React.FC<MeSectionProps> = ({ onChatSubmit }) => {
               <span className="text-lg font-medium text-gray-700">Hey</span>
             </div>
             <p className="text-gray-700 leading-relaxed mb-4">
-              I'm Madankumar(also known as Madan). I'm a data application engineer specializing in Data at Bangalore. Graduated in CSE from SVEC College, Tirupati and
-              working at Assetmantle in Bangalore. I'm passionate about Data, learning AI and new trending tech.
+              Hi, I'm Madankumar (you can call me Madan)! I'm a 23-year-old Data Application Engineer based in Bangalore, where I get to combine my passions for data, AI, and technology in my role at Assetmantle. I'm passionate about Data, learning AI and new trending tech.
             </p>
           </div>
           
