@@ -73,9 +73,13 @@ const MeSection: React.FC<MeSectionProps> = ({ onChatSubmit }) => {
         <p className="text-gray-700 leading-relaxed">
           I'm Madankumar Budidapalli, a 23-year-old data application engineer specializing in Data Analysis and Engineering, currently rocking in Bangalore. Before diving into the tech world, I was a competitive mountain trecker, which is a wild ride! 
           Now, I'm currently working at Assetmatle in Bangalore, where I get to work on some super cool data related projects.
+
+          I am Madankumar Budidapalli, a Data Application Engineer based in Bangalore, specializing in data analysis and engineering. A Computer Science and Engineering graduate from SVEC, Tirupati, I currently apply my skills to impactful data projects at Assetmantle. 
+
+
         </p>
         <p className="text-gray-700 leading-relaxed">
-          I'm really passionate about Data, cutting edge AI technologies and contributing to data projects that are both powerful and useful. Whoo! What else do you want to know? 😊
+         I am passionate about leveraging data to create effective solutions and am keenly focused on the applications of AI and other emerging technologies.. Whoo! What else do you want to know? 😊
         </p>
       </div>
 
