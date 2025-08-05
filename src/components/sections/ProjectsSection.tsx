@@ -37,9 +37,9 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onChatSubmit }) => {
       technologies: ['SQL', 'Data Analysis', 'PowerBI','Excel(Pivot tables)','Data StoryTelling'],
       githubUrl: 'https://github.com/Madhan3718/Traffic-Insights-and-Growth-Narrative-for-an-E-Commerce',
       images: [
-        'https://private-user-images.githubusercontent.com/126716300/473670180-b00363ff-85e5-4c04-974d-c2b4cb6f3910.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTQzOTA0NzIsIm5iZiI6MTc1NDM5MDE3MiwicGF0aCI6Ii8xMjY3MTYzMDAvNDczNjcwMTgwLWIwMDM2M2ZmLTg1ZTUtNGMwNC05NzRkLWMyYjRjYjZmMzkxMC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwODA1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDgwNVQxMDM2MTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01MTA5MTMzNmE1NGQ5OGExMTZjOTkwZDI5YTA3NGExMmI4ZDEwNjU2MTRhNDIzMjczNWY0MzcxYjhiYzQ3YTI3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.42WU0YyFvPlAcWLFV5Jx22GTYJZw0on0rl9CW0AiM9A',
-        'https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=600',
-        'https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg?auto=compress&cs=tinysrgb&w=600'
+        '/insights1.png',
+        '/insights2.png',
+        '/pbdashboard.png'
       ],
       year: '2024',
       image: '📊',
@@ -55,10 +55,9 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onChatSubmit }) => {
       technologies: ['Python', 'GenAI', 'Machine Learning', 'Automation'],
       githubUrl: 'https://github.com/Madhan3718/Automating-Data-science-workflows-using-GenAI',
       images: [
-        
-        'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=600',
-        'https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=600',
-        'https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=600'
+        '/EDA1julius.png',
+        '/Sales_Dashboard.png',
+        '/Screenshot (120).png'
       ],
       year: '2024',
       image: '💼',
@@ -74,9 +73,9 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onChatSubmit }) => {
       technologies: ['React', 'TypeScript', 'AI Integration', 'Deployment'],
       githubUrl: 'https://github.com/Madhan3718/AI-Portfolio',
       images: [
-        'https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=600',
-        'https://images.pexels.com/photos/6801874/pexels-photo-6801874.jpeg?auto=compress&cs=tinysrgb&w=600',
-        'https://images.pexels.com/photos/6802049/pexels-photo-6802049.jpeg?auto=compress&cs=tinysrgb&w=600'
+        '/pf1.png',
+        '/pf2.png',
+        '/pf3.png'
       ],
       year: '2024',
       image: '🤖',
@@ -92,9 +91,9 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onChatSubmit }) => {
       technologies: ['HTML', 'CSS', 'Azure ChatBot', 'Azure Static WebApps'],
       githubUrl: 'https://github.com/Madhan3718/Helmet',
       images: [
-        'https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg?auto=compress&cs=tinysrgb&w=600',
-        'https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=600',
-        'https://images.pexels.com/photos/1216544/pexels-photo-1216544.jpeg?auto=compress&cs=tinysrgb&w=600'
+        '/helmet1.png',
+        '/helmet2.png',
+        '/helmet3.png'
       ],
       year: '2024',
       image: '🛡️',
