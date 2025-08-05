@@ -86,6 +86,6 @@ export async function generateResponse(userMessage: string): Promise<string> {
     return text;
   } catch (error) {
     console.error('Error generating response:', error);
-    throw error;
+    return "I'm sorry, I'm having trouble connecting right now. Please try again in a moment!";
   }
 }
