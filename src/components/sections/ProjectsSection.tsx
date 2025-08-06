@@ -71,7 +71,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onChatSubmit }) => {
       description: 'Interactive AI-powered portfolio website',
       fullDescription: 'A modern, interactive portfolio website powered by AI that showcases projects, skills, and experiences. Features real-time AI chat integration, beautiful animations, and responsive design.',
       technologies: ['React', 'TypeScript', 'AI Integration', 'Deployment'],
-      githubUrl: 'https://github.com/Madhan3718/AI-Portfolio',
+      githubUrl: 'https://github.com/Madhan3718/AI-powered-portfolio',
       images: [
         '/pf1.png',
         '/pf2.png',
