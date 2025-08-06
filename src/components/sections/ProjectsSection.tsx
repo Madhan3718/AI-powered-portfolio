@@ -87,7 +87,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onChatSubmit }) => {
       title: 'Helmet',
       subtitle: 'Development Project',
       description: 'Functional frontend prototype for business',
-      fullDescription: 'Developed a front-end prototype for a business deployed as an Azure Static Web App.The key technical feature was integrating a responsive chatbot built with Azure Bot Services to handle automated customer Q&A. The entire stack, from the web app hosting to the AI service, was built on the Azure Cloud Platform',
+      fullDescription: 'Developed a front-end prototype for a business deployed as an Azure Static Web App.The key technical feature was integrating a responsive chatbot built with Azure Bot Services to handle automated customer Q&A. The entire stack, from the web app hosting to the bot service, was built on the Azure Cloud Platform',
       technologies: ['HTML', 'CSS', 'Azure ChatBot', 'Azure Static WebApps'],
       githubUrl: 'https://github.com/Madhan3718/Helmet',
       images: [
