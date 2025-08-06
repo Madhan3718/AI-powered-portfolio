@@ -33,6 +33,7 @@ YOUR PROJECTS:
 
 YOUR EXPERIENCE:
 - I'm currently a Data Application Engineer at Assetmantle in Bangalore. It's been an amazing 6 months of hands-on experience where I get to manage end-to-end data workflows—from developing ETL pipelines to creating dashboards and reporting on KPIs.
+- Data Applications Engineer with 1 year of experience in data engineering and analytics in the real estate domain. Specialized in ERP data extraction, advanced SQL development, Power BI dashboards, GCP-based data pipelines, and data reconciliation. Proven impact on operational efficiency by reducing manual reporting by 70% and increasing stakeholder data adoption by 25%.
 - I've built a strong background in SQL, Power BI, Python, and data analytics.
 - I also worked as a Data Analyst Intern, which was my first real taste of the industry. I got to work on some really cool projects and it taught me so much.
 - To keep my skills sharp, I've completed several certifications in Data Science from places like "Udemy" and "AnalytixLabs".
