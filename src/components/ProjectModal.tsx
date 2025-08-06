@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Github, ExternalLink } from 'lucide-react';
+import { X, Github, ExternalLink, ZoomIn } from 'lucide-react';
 
 interface Project {
   id: number;
@@ -21,10 +21,21 @@ interface ProjectModalProps {
 }
 
 const ProjectModal: React.FC<ProjectModalProps> = ({ project, isOpen, onClose }) => {
+  const [enlargedImage, setEnlargedImage] = React.useState<string | null>(null);
+
   if (!isOpen || !project) return null;
 
+  const handleImageClick = (image: string) => {
+    setEnlargedImage(image);
+  };
+
+  const handleCloseEnlargedImage = () => {
+    setEnlargedImage(null);
+  };
+
   return (
-    <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+    <>
+      <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4">
       <div className="bg-white rounded-3xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
         {/* Header */}
         <div className="sticky top-0 bg-white border-b border-gray-200 p-6 flex justify-between items-center rounded-t-3xl">
@@ -89,19 +100,47 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, isOpen, onClose })
             <h3 className="text-xl font-semibold text-gray-800 mb-4">Project Gallery</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {project.images.map((image, index) => (
-                <div key={index} className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl overflow-hidden">
+                <div 
+                  key={index} 
+                  className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl overflow-hidden cursor-pointer group relative hover:shadow-lg transition-all duration-200"
+                  onClick={() => handleImageClick(image)}
+                >
                   <img
                     src={image}
                     alt={`${project.title} screenshot ${index + 1}`}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-200"
                   />
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-200 flex items-center justify-center">
+                    <ZoomIn className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-200" size={24} />
+                  </div>
                 </div>
               ))}
             </div>
           </div>
         </div>
       </div>
-    </div>
+      </div>
+
+      {/* Enlarged Image Modal */}
+      {enlargedImage && (
+        <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-60 flex items-center justify-center p-4" onClick={handleCloseEnlargedImage}>
+          <div className="relative max-w-6xl max-h-[90vh] w-full h-full flex items-center justify-center">
+            <button
+              onClick={handleCloseEnlargedImage}
+              className="absolute top-4 right-4 w-10 h-10 bg-white/20 hover:bg-white/30 backdrop-blur-md rounded-full flex items-center justify-center transition-colors duration-200 z-10"
+            >
+              <X size={20} className="text-white" />
+            </button>
+            <img
+              src={enlargedImage}
+              alt="Enlarged project screenshot"
+              className="max-w-full max-h-full object-contain rounded-lg shadow-2xl"
+              onClick={(e) => e.stopPropagation()}
+            />
+          </div>
+        </div>
+      )}
+    </>
   );
 };
 
