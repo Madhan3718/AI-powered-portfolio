@@ -95,7 +95,7 @@ const MeSection: React.FC<MeSectionProps> = ({ onChatSubmit }) => {
             </div>
           </div>
           <a
-            href="/Madan(Resume).pdf"
+            href="/Madan(resume).pdf"
             download
             className="flex items-center justify-center w-10 h-10 rounded-full bg-black text-white hover:bg-gray-800 transition-colors"
             title="Download Resume"
