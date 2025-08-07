@@ -91,7 +91,7 @@ const MeSection: React.FC<MeSectionProps> = ({ onChatSubmit }) => {
             <div className="flex items-center space-x-4 text-xs text-gray-500">
               <span>PDF</span>
               <span>• Updated August 2025</span>
-              <span>• 0.5 MB</span>
+              <span>• 0.2 MB</span>
             </div>
           </div>
           <a
