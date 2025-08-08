@@ -10,6 +10,7 @@ const ContactSection: React.FC = () => {
           <div className="text-2xl">📧</div>
         </div>
         <h2 className="text-4xl font-bold text-gray-800 mb-4">Let's Connect!</h2>
+        <h2 className="text-6xl sm:text-7xl font-black text-gray-900 mb-4 tracking-tight">Contact</h2>
       </div>
 
       {/* Main Contact Card */}

@@ -106,6 +106,7 @@ const SkillsSection: React.FC<SkillsSectionProps> = ({ onChatSubmit }) => {
           <div className="text-2xl">👨‍💻</div>
         </div>
         <h2 className="text-4xl font-bold text-gray-800 mb-4">Skills & Expertise</h2>
+        <h2 className="text-6xl sm:text-7xl font-black text-gray-900 mb-4 tracking-tight">Skills</h2>
       </div>
 
       {/* Skills Categories - Simpler, Thematic */}

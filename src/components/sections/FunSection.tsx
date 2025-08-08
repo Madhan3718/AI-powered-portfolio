@@ -23,7 +23,7 @@ const FunSection: React.FC<FunSectionProps> = ({ onChatSubmit }) => {
           {/* Personal Adventure Image */}
           <div className="w-full h-96 relative overflow-hidden">
             <img 
-              src="https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg?auto=compress&cs=tinysrgb&w=800" 
+              src="/vacation.jpg" 
               alt="Adventure activity"
               className="w-full h-full object-cover"
             />
