@@ -120,7 +120,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onChatSubmit }) => {
           <div className="text-2xl">👨‍💻</div>
         </div>
         <h2 className="text-4xl font-bold text-gray-800 mb-4">My Projects</h2>
-        <h2 className="text-6xl sm:text-7xl font-black text-gray-900 mb-4 tracking-tight">Projects</h2>
+        <h1 className="text-5xl sm:text-6xl font-black bg-gradient-to-r from-pink-400 via-purple-400 to-purple-600 bg-clip-text text-transparent mb-6 tracking-tight">Projects</h1>
       </div>
 
       {/* Featured Projects Grid */}

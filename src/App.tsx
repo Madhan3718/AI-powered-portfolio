@@ -229,7 +229,7 @@ function App() {
               </div>
             </div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-2">Hey, I'm Madan's <span role='img' aria-label='wave'>👋</span></h2>
-            <h1 className="text-6xl sm:text-7xl md:text-8xl font-black text-gray-900 mb-4 tracking-tight">AI Portfolio</h1>
+            <h1 className="text-6xl sm:text-7xl md:text-8xl font-black bg-gradient-to-r from-pink-400 via-purple-400 to-purple-600 bg-clip-text text-transparent mb-4 tracking-tight">AI Portfolio</h1>
           </div>
           {/* Show chat messages on the home page */}
           <div className="w-full max-w-2xl mb-8">
