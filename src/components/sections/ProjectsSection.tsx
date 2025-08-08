@@ -119,8 +119,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onChatSubmit }) => {
         <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
           <div className="text-2xl">👨‍💻</div>
         </div>
-        <h2 className="text-4xl font-bold text-gray-800 mb-4">My Projects</h2>
-        <h1 className="text-5xl sm:text-6xl font-black bg-gradient-to-r from-pink-400 via-purple-400 to-purple-600 bg-clip-text text-transparent mb-6 tracking-tight">Projects</h1>
+        <h2 className="text-4xl font-black bg-gradient-to-r from-pink-400 via-purple-400 to-purple-600 bg-clip-text text-transparent mb-4 tracking-tight">Projects</h2>
       </div>
 
       {/* Featured Projects Grid */}

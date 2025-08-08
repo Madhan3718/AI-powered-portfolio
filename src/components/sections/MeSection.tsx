@@ -19,8 +19,7 @@ const MeSection: React.FC<MeSectionProps> = ({ onChatSubmit }) => {
             className="w-full h-full object-cover"
           />
         </div>
-        <h2 className="text-4xl font-bold text-gray-800 mb-4">Madankumar Budidapalli</h2>
-        <h1 className="text-5xl sm:text-6xl font-black bg-gradient-to-r from-pink-400 via-purple-400 to-purple-600 bg-clip-text text-transparent mb-6 tracking-tight">About Me</h1>
+        <h2 className="text-4xl font-black bg-gradient-to-r from-pink-400 via-purple-400 to-purple-600 bg-clip-text text-transparent mb-4 tracking-tight">Madankumar Budidapalli</h2>
         <div className="flex items-center justify-center space-x-6 text-lg font-semibold text-gray-700 mb-6">
           <div className="flex items-center space-x-1">
             <Calendar size={16} />
