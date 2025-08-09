@@ -267,7 +267,7 @@ function App() {
           <NavigationTabs activeTab={activeTab || ''} onTabChange={handleTabChange} />
         </div>
       ) : (
-        <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-20">
+        <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-8">
           {/* AI Question Bubble */}
           {aiPrompt && (
             <div className="w-full max-w-4xl mx-auto mb-8 flex justify-start">
@@ -284,7 +284,7 @@ function App() {
           )}
           {/* Section Summary */}
           {showSectionSummary && (
-            <div className="w-full max-w-6xl mb-8">
+            <div className="w-full max-w-6xl mb-4">
               {activeTab === 'me' && <MeSection onChatSubmit={handleSectionChatSubmit} />}
               {activeTab === 'projects' && <ProjectsSection onChatSubmit={handleSectionChatSubmit} />}
               {activeTab === 'skills' && <SkillsSection onChatSubmit={handleSectionChatSubmit} />}
@@ -292,7 +292,9 @@ function App() {
               {activeTab === 'contact' && <ContactSection onChatSubmit={handleSectionChatSubmit} />}
             </div>
           )}
-          <NavigationTabs activeTab={activeTab} onTabChange={handleTabChange} />
+          <div className="mt-auto">
+            <NavigationTabs activeTab={activeTab} onTabChange={handleTabChange} />
+          </div>
         </div>
       )}
       </>

@@ -3,9 +3,9 @@ import { Mail, Linkedin, Github, Target, Briefcase, ExternalLink } from 'lucide-
 
 const ContactSection: React.FC = () => {
   return (
-    <div className="w-full max-w-4xl mx-auto p-6 space-y-8">
+    <div className="w-full max-w-4xl mx-auto p-4 space-y-6">
       {/* Header */}
-      <div className="text-center mb-8">
+      <div className="text-center mb-6">
         <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
           <div className="text-2xl">📧</div>
         </div>
@@ -13,9 +13,9 @@ const ContactSection: React.FC = () => {
       </div>
 
       {/* Main Contact Card */}
-      <div className="bg-white/90 backdrop-blur-md rounded-3xl p-8 shadow-xl border border-white/20">
+      <div className="bg-white/90 backdrop-blur-md rounded-2xl p-6 shadow-xl border border-white/20">
         {/* Profile Header */}
-        <div className="text-center mb-8">
+        <div className="text-center mb-6">
           <div className="w-20 h-20 mx-auto mb-4 rounded-full overflow-hidden shadow-lg">
             <img 
               src="https://www.toukoum.fr/_next/image?url=%2Flanding-memojis.png&w=2048&q=75" 
@@ -32,7 +32,7 @@ const ContactSection: React.FC = () => {
         </div>
 
         {/* Contact Links */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
           <a
             href="mailto:madhankumarreddy3718@gmail.com"
             className="flex items-center justify-center space-x-3 bg-gradient-to-r from-red-500 to-pink-500 text-white px-6 py-4 rounded-xl hover:shadow-lg transition-all duration-200 hover:scale-105"
@@ -63,7 +63,7 @@ const ContactSection: React.FC = () => {
         </div>
 
         {/* What I Bring & Goal */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
           {/* What I Bring */}
           <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-2xl p-6">
             <div className="flex items-center space-x-2 mb-4">
@@ -92,7 +92,7 @@ const ContactSection: React.FC = () => {
         </div>
 
         {/* Tech Stack Highlights */}
-        <div className="mb-8">
+        <div className="mb-6">
           <h4 className="text-lg font-semibold text-gray-800 mb-4 text-center">Tech Stack Highlights</h4>
           <div className="flex flex-wrap justify-center gap-2">
             {['Python', 'PL/SQL', 'Data Analytics', 'PowerBI', 'Excel', 'AI/ML', 'Google cloud'].map((tech, index) => (
@@ -107,7 +107,7 @@ const ContactSection: React.FC = () => {
         </div>
 
         {/* Bottom Message */}
-        <div className="text-center bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-6">
+        <div className="text-center bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl p-4">
           <p className="text-gray-700 leading-relaxed">
             You can reach me through the contact info above! Feel free to hit me up anytime, I'm always happy to chat! 😉 What's on your mind?
           </p>

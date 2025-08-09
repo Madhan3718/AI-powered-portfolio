@@ -8,9 +8,9 @@ interface FunSectionProps {
 
 const FunSection: React.FC<FunSectionProps> = ({ onChatSubmit }) => {
   return (
-    <div className="w-full max-w-4xl mx-auto p-6 space-y-8">
+    <div className="w-full max-w-4xl mx-auto p-4 space-y-6">
       {/* Header */}
-      <div className="text-center mb-8">
+      <div className="text-center mb-6">
         <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
           <div className="text-2xl">👨‍💻</div>
         </div>
@@ -18,10 +18,10 @@ const FunSection: React.FC<FunSectionProps> = ({ onChatSubmit }) => {
       </div>
 
       {/* Main Image Card */}
-      <div className="bg-white/80 backdrop-blur-md rounded-3xl overflow-hidden shadow-xl border border-white/20">
+      <div className="bg-white/80 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl border border-white/20">
         <div className="relative">
           {/* Personal Adventure Image */}
-          <div className="w-full h-96 relative overflow-hidden">
+          <div className="w-full h-64 relative overflow-hidden">
             <img 
               src="/vacation.jpg" 
               alt="Adventure activity"
@@ -42,7 +42,7 @@ const FunSection: React.FC<FunSectionProps> = ({ onChatSubmit }) => {
         </div>
         
         {/* Content */}
-        <div className="p-8">
+        <div className="p-6">
           <div className="space-y-4">
             <p className="text-gray-700 leading-relaxed">
               The craziest thing I've ever done? It has to be climbing Parvathamalai, a 4500 ft mountain! ⛰️ The winds were blasting at 60 km/h, and we were without water for about 5 hours straight. It was an absolutely intense but incredible adventure!

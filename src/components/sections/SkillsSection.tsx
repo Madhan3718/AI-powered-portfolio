@@ -99,9 +99,9 @@ const SkillsSection: React.FC<SkillsSectionProps> = ({ onChatSubmit }) => {
   ];
 
   return (
-    <div className="w-full max-w-4xl mx-auto p-6 space-y-10">
+    <div className="w-full max-w-4xl mx-auto p-4 space-y-6">
       {/* Header */}
-      <div className="text-center mb-8">
+      <div className="text-center mb-6">
         <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
           <div className="text-2xl">👨‍💻</div>
         </div>
@@ -109,7 +109,7 @@ const SkillsSection: React.FC<SkillsSectionProps> = ({ onChatSubmit }) => {
       </div>
 
       {/* Skills Categories - Simpler, Thematic */}
-      <div className="space-y-8">
+      <div className="space-y-6">
         {skillCategories.map((category, categoryIndex) => {
           const CategoryIcon = category.icon;
           return (
@@ -140,7 +140,7 @@ const SkillsSection: React.FC<SkillsSectionProps> = ({ onChatSubmit }) => {
       </div>
 
       {/* Bottom Description */}
-      <div className="text-center mt-10">
+      <div className="text-center mt-6">
         <p className="text-gray-700 leading-relaxed">
           You can check out all my skills above! I've got a mix of hard and soft skills that help me tackle projects 
           like a champ. If you want to know more about a specific skill or how I use them, just ask! What skills 

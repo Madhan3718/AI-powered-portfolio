@@ -9,9 +9,9 @@ interface MeSectionProps {
 
 const MeSection: React.FC<MeSectionProps> = ({ onChatSubmit }) => {
   return (
-    <div className="w-full max-w-4xl mx-auto p-6 space-y-8">
+    <div className="w-full max-w-4xl mx-auto p-4 space-y-6">
       {/* Header with Avatar */}
-      <div className="text-center mb-8">
+      <div className="text-center mb-6">
         <div className="w-16 h-16 mx-auto mb-6 rounded-full overflow-hidden">
           <img 
             src="https://www.toukoum.fr/_next/image?url=%2Flanding-memojis.png&w=2048&q=75" 
@@ -33,10 +33,10 @@ const MeSection: React.FC<MeSectionProps> = ({ onChatSubmit }) => {
       </div>
 
       {/* Main Content */}
-      <div className="flex flex-col lg:flex-row gap-8 items-start">
+      <div className="flex flex-col lg:flex-row gap-6 items-start">
         {/* Profile Image */}
         <div className="flex-shrink-0 lg:w-64">
-          <div className="w-full h-80 bg-gradient-to-br from-blue-100 to-purple-100 rounded-3xl overflow-hidden">
+          <div className="w-full h-64 bg-gradient-to-br from-blue-100 to-purple-100 rounded-3xl overflow-hidden">
             <img 
               src="profileimg.jpg" 
               alt="Profile"
@@ -46,7 +46,7 @@ const MeSection: React.FC<MeSectionProps> = ({ onChatSubmit }) => {
         </div>
         
         {/* Profile Info */}
-        <div className="flex-1 space-y-6">
+        <div className="flex-1 space-y-4">
           <div className="mb-6">
             <div className="flex items-center space-x-2 mb-4">
               <span className="text-2xl">👋</span>
@@ -69,7 +69,7 @@ const MeSection: React.FC<MeSectionProps> = ({ onChatSubmit }) => {
       </div>
       
       {/* Bio */}
-      <div className="mt-8 space-y-4">
+      <div className="mt-6 space-y-3">
         <p className="text-gray-700 leading-relaxed">
 
           I am Madankumar Budidapalli, a Data Application Engineer based in Bangalore, specializing in data analysis and engineering. A Computer Science and Engineering graduate from SVEC, Tirupati, I currently apply my skills to impactful data projects at Assetmantle.
@@ -83,7 +83,7 @@ const MeSection: React.FC<MeSectionProps> = ({ onChatSubmit }) => {
       </div>
 
       {/* Resume Download Card */}
-      <div className="w-full max-w-2xl mx-auto mt-12">
+      <div className="w-full max-w-2xl mx-auto mt-8">
         <div className="bg-gray-50 rounded-2xl shadow flex items-center justify-between p-6">
           <div>
             <div className="font-bold text-lg text-gray-900 mb-1">Madan's Resume</div>

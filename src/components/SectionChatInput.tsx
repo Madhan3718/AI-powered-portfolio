@@ -21,7 +21,7 @@ const SectionChatInput: React.FC<SectionChatInputProps> = ({
   };
 
   return (
-    <div className="w-full max-w-2xl mx-auto mt-8">
+    <div className="w-full max-w-2xl mx-auto mt-4">
       <form onSubmit={handleSubmit} className="relative">
         <input
           type="text"

@@ -113,9 +113,9 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onChatSubmit }) => {
   };
 
   return (
-    <div className="w-full max-w-6xl mx-auto p-6 space-y-8">
+    <div className="w-full max-w-6xl mx-auto p-4 space-y-6">
       {/* Header */}
-      <div className="text-center mb-8">
+      <div className="text-center mb-6">
         <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center">
           <div className="text-2xl">👨‍💻</div>
         </div>
@@ -123,7 +123,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onChatSubmit }) => {
       </div>
 
       {/* Featured Projects Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
         {projects.map((project) => (
           <div
             key={project.id}
@@ -163,7 +163,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ onChatSubmit }) => {
       </div>
 
       {/* Project Description */}
-      <div className="bg-white/80 backdrop-blur-md rounded-3xl p-8 shadow-xl border border-white/20">
+      <div className="bg-white/80 backdrop-blur-md rounded-3xl p-6 shadow-xl border border-white/20">
         <p className="text-gray-700 mb-6 leading-relaxed">
           You can check out all my projects above! Right now, I'm working on some exciting Data projects and tools that resolves real world problems. If you want to know more about a specific project or what I'm currently diving into, just let me know! What kind of projects are you curious about? 😄
         </p>
