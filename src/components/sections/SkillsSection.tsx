@@ -38,7 +38,7 @@ const SkillsSection: React.FC<SkillsSectionProps> = ({ onChatSubmit }) => {
       skills: [
         { name: 'SQL', icon: Database },
         { name: 'Python', icon: Cpu },
-        { name: 'Java(Intermediate)', icon: Code },
+        { name: 'Java(Basic)', icon: Code },
         { name: 'HTML', icon: Monitor },
         { name: 'CSS', icon: Palette }
       ]

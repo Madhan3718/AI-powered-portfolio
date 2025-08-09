@@ -21,7 +21,7 @@ const FunSection: React.FC<FunSectionProps> = ({ onChatSubmit }) => {
       <div className="bg-white/80 backdrop-blur-md rounded-2xl overflow-hidden shadow-xl border border-white/20">
         <div className="relative">
           {/* Personal Adventure Image */}
-          <div className="w-full h-64 relative overflow-hidden">
+          <div className="w-full h-80 relative overflow-hidden">
             <img 
               src="/vacation.jpg" 
               alt="Adventure activity"
